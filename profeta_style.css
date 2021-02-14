@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'Impact MT';
+    src: url('impact-mt.ttf');
+}
+
+body {
+    background-color: rgb(216, 209, 183);
+    text-align: justify;
+}
+
+hr {
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+div.bigcontainer {
+    margin: 7px;
+}
+
+div.bigcontainer span {
+    display: block;
+}
+
+div.bigcontainer span.back {
+    background-color: #000;
+    color: rgb(216, 209, 183);
+}
+
+div.container1 {
+    font-family: 'Impact MT';
+    grid-template-columns: 650px 700px 400px;
+    grid-template-rows: 150px;
+    grid-gap: 5px 5px;
+    display: grid;
+}
+
+div.container2 {
+    grid-template-columns: 650px 350px 345px 350px;
+    grid-template-rows: 380px;
+    grid-gap: 5px 5px;
+    display: grid;
+}
+
+div.container3 {
+    grid-template-columns: 500px 470px 910px;
+    grid-template-rows: 458.47px;
+    grid-gap: 5px 5px;
+    display: grid;
+}
+
+div.item1 {
+    width: 500px;
+    justify-self: center;
+    display: block;
+    text-transform: uppercase;
+}
+
+div.item1 img.img1 {
+    float: left;
+    width: 80px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
+
+div.item1 img.img2 {
+    float: right;
+    margin-top: 4px;
+    width: 122.59px;
+}
+
+div.item1 p span.nev {
+    letter-spacing: 3px;
+    margin-top: -20px;
+    font-size: 50px;
+}
+
+div.item1 p span.long {
+    line-height: 0.7;
+    font-size: 50px;
+}
+
+div.item1 p span.kis {
+    letter-spacing: 2px;
+    word-spacing: 23px;
+    font-size: 45px;
+}
+
+div.item2 {
+    margin: auto;
+}
+
+div.item3 {
+    line-height: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.item3 span.memorial {
+    font-size: 60px;
+    margin-top: -15.7px;
+}
+
+div.item3 span.planned {
+    font-size: 60px;
+}
+
+div.item3 span.exclusive {
+    width: 200px;
+    margin: auto;
+    font-size: 25px;
+    letter-spacing: 10px;
+    background-color: #000;
+    color: rgb(216, 209, 183);
+}
+
+div.item4 {
+    font-family: 'Impact MT';
+    height: 378px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 0.9;
+    font-size: 210px;
+}
+
+div.item4 span.harry {
+    margin-top: -210px;
+    background-color: #000;
+    color: rgb(216, 209, 183);
+}
+
+div.item5 {
+    font-family: 'Impact MT';
+    text-transform: uppercase;
+    font-size: 80px;
+}
+
+div.item5 span.defeats {
+    letter-spacing: 14px;
+    margin-top: -85px;
+}
+
+div.item6 img {
+    margin: auto;
+    width: 345px;
+}
+
+div.item7 {
+
+}
+
+div.item7 p.page {
+    font-family: 'Impact MT';
+    text-transform: uppercase;
+    display: inline;
+    float: right;
+    font-size: 50px;
+}
+
+div.item7 p.content {
+    font-size: 20px;
+}
+
+div.item7 img.ujj {
+    display: block;
+}
+
+div.item7 img.f {
+    float: left;
+}
+
+div.item8 {
+    font-family: 'Impact MT';
+}
+
+div.item8 p span.dec {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+div.item8 ul {
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;
+    display: grid;
+}
+
+div.item8 ul li.weekdays {
+    font-size: 30px;
+}
+
+div.item8 ul li {
+    font-size: 30px;
+    list-style: none;
+    margin: auto;
+}
+
+div.item8 ul li.elseje {
+    display: block;
+}
+
+div.item9 img {
+    width: 470px;
+}
+
+div.item10 {
+    display: block;
+}
+
+div.elso {
+    width: 510px;
+}
+
+div.item10 hr.csik {
+    width: 370px;
+    float: left;
+}
+
+div.item10 p.severus {
+    font-family: 'Impact MT';
+    display: block;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: -6px;
+    margin-bottom: 5px;
+}
+
+div.item10 span.rem {
+    letter-spacing: 5px;
+}
+
+div.item10 span.real {
+    font-size: 40px;
+    word-spacing: 20px;
+    letter-spacing: 1.5px;
+}
+
+div.item10 img.w {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+}
+
+div.item10 p.text {
+    display: block;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+div.item10 img.galagony {
+    float: left;
+    margin-top: -15px;
+    width: 215px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+div.item10 p.minerva {
+    font-family: 'Impact MT';
+    text-transform: uppercase;
+    float: left;
+    line-height: 1.135;
+    font-size: 50px;
+    margin-top: -20px;
+}
+
+div.item11 {
+    margin: auto;
+}
+
+div.item11 img.footer {
+    margin: auto;
+}
